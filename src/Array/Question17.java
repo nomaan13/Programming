@@ -15,18 +15,14 @@ public class Question17 {
 
             } else if (a[i]!=smallest && a[i]<secondSmallest) {
                 secondSmallest=a[i];
-
-
-            }
-
-
+}
         } System.out.println("Smallest number is : " +smallest);
         System.out.println("Second-Smallest number is : " +secondSmallest);
 
     }
 
     public static void main(String[] args) {
-        int a[] ={50,55,45,10,12,20,30,8,1,0};
+        int a[] ={50,55,45,10,12,20,30,8,-1,0};
         smallestAndSecondSmallest(a);
     }
 }
