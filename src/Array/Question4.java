@@ -12,6 +12,6 @@ public class Question4 {
                 count++;
             }
         }
-        System.out.println("Total count of elements which are divisible by 7 are: " + count);
+        System.out.println("Total count of elements which are divisible by 7 are : " + count);
     }
 }
